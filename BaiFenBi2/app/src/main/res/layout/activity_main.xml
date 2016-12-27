@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<im.quar.autolayout.view.AutoRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="乔鹏宏"
+        android:textColor="#1fb6c4"
+        android:textSize="32px"
+        android:layout_centerHorizontal="true" />
+<Button
+    android:id="@+id/bt"
+    android:layout_below="@id/tv"
+    android:layout_marginTop="26px"
+    android:layout_marginLeft="50px"
+    android:layout_width="100px"
+    android:layout_height="60px"
+    android:text="按钮"/>
+
+    <fragment
+        android:id="@+id/left_fragment"
+        android:name="com.six.history.baifenbi.LeftFragment"
+        android:layout_width="match_parent"
+        android:layout_height="300px"
+        android:layout_below="@+id/bt"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="69dp" />
+</im.quar.autolayout.view.AutoRelativeLayout>
